@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-
 }
 body {
   margin: 0 3rem !important;
@@ -10,19 +9,20 @@ body .navbar {
   display: flex;
   flex-direction: row;
   background-color: #ffffff !important;
-  margin:  0 !important;
+  margin: 0 !important;
 }
 .header {
   padding: 20px 0 !important;
-  margin:  0 !important;
+  margin: 0 !important;
   font-family: Poppins, sans-serif;
   background-color: #ffffff !important;
+  font-weight: 400;
 }
 .navbar-brand {
   width: 280px;
 }
 
- .nav-item .shop {
+.nav-item .shop {
   width: 70px;
 }
 .nav-item .about {
@@ -37,13 +37,12 @@ body .navbar {
 
 .icons .nav-link .icon2 {
   width: 50px;
-  color:  black !important;
+  color: black !important;
   background-color: #ffff;
   border-radius: 50%;
   border: 1px solid rgb(159, 120, 255, 0.2);
   padding: 10px 20px;
   text-align: center;
- 
 }
 
 .icons .nav-link .icon3 {
@@ -78,10 +77,10 @@ body .navbar {
   color: #ffffff;
   border-radius: 25px;
   border: 1px solid rgb(159, 120, 255, 0.2);
- padding: 10px 10px;
+  padding: 10px 10px;
   text-align: center;
   font-size: 18px;
-  background-color:#9f78ff !important;
+  background-color: #9f78ff !important;
 }
 
 .fa-clipboard-check {
@@ -89,88 +88,91 @@ body .navbar {
   font-size: 24px;
 }
 body .navbar a {
-  color: #000000 !important; 
-} 
+  color: #000000 !important;
+}
 .slides {
   position: relative;
   margin-top: 0 !important;
 }
 
 .first-text {
-position: absolute;
-top: 20%;
-margin: auto;
+  position: absolute;
+  top: 20%;
+  margin: auto;
 }
 
 .first-text1 {
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
   font-size: 80px;
   text-align: center;
   color: #ffffff;
   font-weight: 700;
-  
 }
 .button1 {
   padding: 10px 40px;
   font-family: Poppins, sans-serif;
+  font-weight: 400;
   font-size: 18px;
   color: #ffffff;
-  background-color:rgb(159, 120, 255) !important;
+  background-color: rgb(159, 120, 255) !important;
+  outline-color: none !important;
+  border-color: transparent !important;
   cursor: pointer;
   box-shadow: inset 0 0 0 0 #8c6ae4;
-  -webkit-transition: ease-out 0.4s;
-  -moz-transition: ease-out 0.8s;
-  transition: ease-out 0.8s;
+  -webkit-transition: ease-out 2s;
+  -moz-transition: ease-out 2s;
+  transition: ease-out 2s;
 }
 .button1:hover {
   box-shadow: inset 400px 0 0 0 #8c6ae4;
 }
-
 
 .carousel .carousel-indicators li {
   width: 10px;
   height: 10px;
   border-radius: 50%;
   margin-bottom: 50px;
+  margin: 10px;
+  background-color: #ffffff !important;
 }
 
- .card1 {
-margin-top: 50px;
-/* padding: 0 35px; */
- }
+.we:active {
+  border-radius: 50%;
+  border: 1px solid red;
+  padding: 0.1px 0.1px;
+}
 
- .cardimg
- {
-   position: relative;
-  
- }
- 
-.btn1
-{ 
+.card1 {
+  margin-top: 50px;
+}
+
+.cardimg {
+  position: relative;
+}
+
+.btn1 {
   display: none !important;
   position: absolute;
   top: 40%;
   left: 20%;
   padding: 15px 44px !important;
   font-family: Poppins, sans-serif;
+  font-weight: 500 !important;
   font-size: 18px !important;
   color: #ffffff;
-  background-color:#9f78ff !important;
+  background-color: #9f78ff !important;
   outline-color: none !important;
   border-color: transparent !important;
 }
 
-
-
-.btn2
-{
+.btn2 {
   display: none !important;
   position: absolute;
   bottom: 0;
   width: 100%;
   left: 0;
   padding: 18px 44px !important;
-  font-family: 'Cinzel', serif !important; 
+  font-family: "Cinzel", serif !important;
   font-size: 30px !important;
   font-weight: 400 !important;
   background-color: rgba(29, 37, 71, 0.5) !important;
@@ -178,17 +180,26 @@ margin-top: 50px;
   z-index: 1;
 }
 
-
 .cardlist:hover a {
   display: inline-block !important;
 }
 
+.card2 {
+  font-family: Poppins, sans-serif !important;
+}
+.cardimg2 {
+  position: relative;
+}
 
-.cardimg2
- {
-   position: relative;
-  
- }
+.card-body + h5 {
+  font-family: Poppins, sans-serif !important;
+  font-weight: 500 !important;
+}
+
+.underline:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 .product-icon {
   position: absolute;
@@ -197,48 +208,31 @@ margin-top: 50px;
   color: #ffffff;
   font-size: 16px;
   background-color: purple;
-  outline:purple;
+  outline: purple;
 }
 
-
 h2 {
- 
-    text-align: center;
-    font-family: 'Cinzel', serif;
-    line-height: 1.7;
-    
+  text-align: center;
+  font-family: "Cinzel", serif;
+  line-height: 1.7;
 }
 
 .arrival {
-    margin: 50px;
-    width: 30%;
-    font-family: 'Cinzel', serif;
-    font-size: 4rem;
-    padding: 3rem;
-    margin: auto;
-    font-weight: 600;
+  margin: 50px;
+  width: 30%;
+  font-family: "Cinzel", serif;
+  font-size: 4rem;
+  padding: 3rem;
+  margin: auto;
+  font-weight: 600;
 }
 .checked {
   color: orange;
 }
 
-/* .button {
-  padding: 1rem 2.5rem !important;
-  font-family: 'Poppins', sans-serif;
-  color: blueviolet !important;
-  border: 1px solid blueviolet !important;
-  margin-bottom: 70px;
-  margin-top: 50px;
-}   */
-/* .carousel .carousel-indicators li:active {
-     border: 1px solid white;
-     border-radius: 50%;
-     padding: 10px;
- } */
- .card2 {
+.card2 {
   margin-bottom: 30px !important;
- }
-
+}
 
 .card2-items {
   margin-right: 5px !important;
@@ -249,11 +243,39 @@ h2 {
   margin-bottom: 20px !important;
   background-color: red;
 }
+.button6 {
+  padding: 18px 44px !important;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+  background-color: #ffffff !important;
+  font-family: Poppins, sans-serif;
+  border-color: rgb(159, 120, 255) !important;
+  color: rgb(159, 120, 255) !important;
+  box-shadow: inset 0 0 0 0 #8c6ae4;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+}
+.button6:hover {
+  box-shadow: inset 0 100px 0 0 #8c6ae4;
+  color: #fff !important;
+}
+
+.slide-down {
+  background: transparent;
+  color: var(--lilac);
+  cursor: pointer;
+  border: 1px solid;
+  box-shadow: inset 0 0 0 0 #8c6ae4;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+}
 
 .back-img {
   background-image: url("https://preview.colorlib.com/theme/shionhouse/assets/img/gallery/section_bg01.png");
   padding: 400px 0;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
 }
 
 .back-img1 {
@@ -277,16 +299,19 @@ h2 {
 
 .second-text1 {
   font-family: Cinzel, serif;
-  font-size: 50px;
+  font-size: 55px;
   font-weight: 500 !important;
   color: #ffffff;
+  text-align: center !important;
+  margin-bottom: 30px;
 }
 .button2 {
   padding: 10px 40px !important;
   font-family: Poppins, sans-serif;
+  font-weight: 500 !important;
   font-size: 18px;
   color: #ffffff;
-  background-color:rgb(159, 120, 255) !important;
+  background-color: rgb(159, 120, 255) !important;
 }
 .card3 {
   position: relative;
@@ -294,27 +319,25 @@ h2 {
 .third-text {
   position: absolute;
   margin: auto;
-  top: 40%;
+  top: 50%;
   width: 80%;
   text-align: left;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .third-text1 {
   font-family: Poppins, sans-serif;
   font-size: 30px;
-  font-weight: lighter !important;
+  font-weight: 400 !important;
   color: #ffffff;
-
 }
 .button3 {
-  
   top: 50%;
   padding: 10px 40px !important;
   font-family: Poppins, sans-serif;
   font-size: 18px;
   color: #ffffff;
-  background-color:rgb(159, 120, 255) !important;
+  background-color: rgb(159, 120, 255) !important;
 }
 
 .card-con {
@@ -323,6 +346,7 @@ h2 {
 .card-con2 {
   padding-top: 8rem;
   padding-bottom: 8rem;
+  background-color: rgb(247, 247, 253);
 }
 
 .navbar .navbar-nav .dropdown-toggle::after {
@@ -336,22 +360,22 @@ h2 {
 .text-set {
   padding-left: 0 !important;
   margin-left: 0 !important;
-  text-align : left !important;
+  text-align: left !important;
   color: #ffffff !important;
 }
 
-.foot-cont p, .text-set2 {
+.foot-cont p,
+.text-set2 {
   color: #ffffff;
 }
 
-
 .card-small {
-  margin-right: 10px !important;
+  margin-right: 0 !important;
 }
 
 .foot-cont {
-background-color: rgb(29, 37, 71);
-padding-top: 6rem;
+  background-color: rgb(29, 37, 71);
+  padding-top: 6rem;
 }
 .foot-cont1 {
   margin-bottom: 3rem !important;
@@ -360,21 +384,34 @@ padding-top: 6rem;
   background-color: rgb(29, 37, 71) !important;
 }
 .card-text {
-  color:rgb(194, 197, 219) !important;
-
+  color: rgb(194, 197, 219) !important;
 }
 .last-text {
   text-align: center;
   margin-bottom: 1rem !important;
-  color:rgb(194, 197, 219);
-padding-bottom: 3rem;
+  color: rgb(194, 197, 219);
+  padding-bottom: 3rem;
 }
 .icon5 {
   border: 1px solid white;
-  padding: 10px;                                 
+  padding: 10px;
   border-radius: 50%;
   margin-right: 10px;
 }
+.arrow {
+  position: fixed;
+  font-size: 24px;
+  border-radius: 50%;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1;
+  background-color: rgb(159, 120, 255);
+  padding: 10px 20px;
+}
+.arrow a {
+  color: white !important;
+}
+
 
 @media all and (min-width: 992px) {
   .navbar .nav-item .dropdown-menu {
@@ -388,5 +425,112 @@ padding-bottom: 3rem;
   }
   .navbar .nav-item .dropdown-menu {
     margin-top: 20px;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .nav-item .about {
+    width: 70px;
+  }
+
+  .first-text1 {
+    font-size: 60px;
+  }
+
+  .arrival {
+    margin: auto;
+    width: 50%;
+  }
+
+  .nav-item .contact {
+    width: 90px;
+  }
+  .icons .nav-link .icon2 {
+    margin: 0 !important;
+    width: 30px;
+    padding: 10px 1px !important;
+  }
+  .icons .nav-link .icon3 {
+    margin: 0 !important;
+    width: 30px;
+    padding: 10px 1px !important;
+  }
+  .icons .nav-link .icon4 {
+    margin: 0 !important;
+    width: 30px;
+    padding: 10px 1px !important;
+  }
+  .icons .nav-link .icon5 {
+    margin: 0 !important;
+    width: 30px;
+    padding: 10px 1px !important;
+  }
+
+  .icons .nav-link .icon6 {
+    margin: 0 !important;
+    width: 50px;
+    padding: 10px 1px !important;
+  }
+}
+
+@media all and (max-width: 1100px) {
+  .first-text1 {
+    font-size: 50px;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  body {
+    margin: 0 1rem !important;
+  }
+  .first-text1 {
+    width: 50%;
+    font-size: 40px;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .navbar-brand {
+    width: 200px;
+  }
+  .first-text1 {
+    font-size: 30px;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .icons .nav-link {
+    display: none;
+  }
+  .first-text1 {
+    font-size: 30px;
+  }
+
+  .arrival {
+    margin: 50px;
+    width: 80%;
+  }
+}
+@media all and (max-width: 700px) {
+  .first-text1 {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .first-text {
+    top: 10%;
+  }
+
+  .first-text1 {
+    font-size: 15px;
+  }
+
+  .third-text1 {
+    font-size: 20px;
+  }
+  .button3 {
+    padding: 10px 20px !important;
+    font-size: 14px;
   }
 }
